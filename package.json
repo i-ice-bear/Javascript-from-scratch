@@ -1,0 +1,22 @@
+{
+  "name": "javascript-spork",
+  "version": "1.0.0",
+  "description": "It is my complete javascript progress including some fundamentals of node.js for generating a lockfile to run javascript at full potential including frontend and backend algorithms.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-ice-bear/Javascript-spork.git"
+  },
+  "keywords": [
+    "HTML"
+  ],
+  "author": "Anshu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i-ice-bear/Javascript-spork/issues"
+  },
+  "homepage": "https://github.com/i-ice-bear/Javascript-spork#readme"
+}
