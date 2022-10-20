@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS Document</title>
-    <link rel="stylesheet" href="../sass/initial.css" type="text/css">
-</head>
-<body>
-    <h1>Initial HTML document</h1>
-    <button class="header-btn" onclick="checkList()">Check fruit price</button>
-    <button class="header-btn" onclick="fallThrough()">Animal availability</button>
-    <script src="../JS/switch.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XHTTP Server</title>
+  </head>
+  <body>
+    <h1 id="docs">Change me!</h1>
+    <button onclick="changeHeading()">Change now</button>
+    <script>
+      const changeHeading = () => {
+        document.getElementById("docs").innerHTML = "Let's focus";
+      };
+    </script>
+  </body>
 </html>
