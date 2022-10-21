@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js"></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,7 +24,13 @@
     <nav id="responsive" class="navbar navbar-expand-lg py-3 bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand text-purple-500 hover:text-white" href="#">
-          <img src="https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo.svg" alt="Logo" width="36" height="30" class="d-inline-block align-text-top">
+          <img
+            src="https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo.svg"
+            alt="Logo"
+            width="36"
+            height="30"
+            class="d-inline-block align-text-top"
+          />
           Bootstrap
         </a>
         <button
@@ -40,10 +47,17 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mt-1">
             <li class="nav-item">
-              <a class="nav-link hover:text-white text-light active" aria-current="page" href="#">Home</a>
+              <a
+                class="nav-link hover:text-white text-light active"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="hover:text-white nav-link text-gray-300 bold" href="#">Examples</a>
+              <a class="hover:text-white nav-link text-gray-300 bold" href="#"
+                >Examples</a
+              >
             </li>
             <li class="nav-item dropdown">
               <a
@@ -65,13 +79,16 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link hover:text-white cursor-pointer text-gray-300">Designs</a>
+              <a class="nav-link hover:text-white cursor-pointer text-gray-300"
+                >Designs</a
+              >
             </li>
           </ul>
           <form class="d-flex" role="search">
-
-           <a href="#" class="nav-link text-gray-400 hover:text-white">More Deets</a>
-           <a href="#" class="nav-link text-light mx-3">Dank memes</a>
+            <a href="#" class="nav-link text-gray-400 hover:text-white"
+              >More Deets</a
+            >
+            <a href="#" class="nav-link text-light mx-3">Dank memes</a>
           </form>
         </div>
       </div>
@@ -79,7 +96,17 @@
 
     <!--* headercontainer -->
     <div class="container-sm">
-      <h1 class="bg-dark">Something</h1>
+      <div class="utilities my-4">
+        <h1 class="h5">
+          Click at button to alert at window and select data from prompt
+        </h1>
+        <h4>I entered : <span id="contentManage">some</span></h4>
+        <div class="buttons my-3">
+          <button onclick="alertWindow()" class="btn rounded-2xl hover:bg-rose-500 border-none btn-primary">Alert at window</button>
+          <button onclick="promptValue()" class="btn rounded-2xl hover:bg-purple-500 border-none btn-danger">Open the prompt</button>
+          <button onclick="confirmationFunction()" class="btn rounded-2xl hover:bg-purple-500 border-none bg-green-400">Visit outside</button>
+        </div>
+      </div>
     </div>
   </body>
 </html>
