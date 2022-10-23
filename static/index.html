@@ -44,7 +44,7 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse bg-danger" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mt-1">
             <li class="nav-item">
               <a
@@ -105,8 +105,14 @@
           <button onclick="alertWindow()" class="btn rounded-2xl hover:bg-rose-500 border-none btn-primary">Alert at window</button>
           <button onclick="promptValue()" class="btn rounded-2xl hover:bg-purple-500 border-none btn-danger">Open the prompt</button>
           <button onclick="confirmationFunction()" class="btn rounded-2xl hover:bg-purple-500 border-none bg-green-400">Visit outside</button>
+          <br />
+          <button onclick="darkModeToggles()" class="btn my-4 rounded-2xl hover:bg-cyan-600 border-none
+          bg-blue-300">Toggle dark mode</button>
+          <button onclick="lightModeToggles()" class="btn my-4 rounded-2xl hover:bg-cyan-600 border-none
+          bg-blue-300">Toggle light</button>
         </div>
       </div>
     </div>
+
   </body>
 </html>

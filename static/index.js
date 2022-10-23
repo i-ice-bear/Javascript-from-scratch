@@ -23,3 +23,13 @@ function confirmationFunction(){
         alert("none")
     }
 }
+function darkModeToggles(){
+    const darkMode = document.body.style.backgroundColor = "black"
+    console.log(darkMode)
+    document.body.style.color = "white"
+}
+function lightModeToggles(){
+    const darkMode = document.body.style.backgroundColor = "white"
+    console.log(darkMode)
+    document.body.style.color = "black"
+}
